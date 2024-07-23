@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* COMMON CLASSES */
+.primary-text {
+    color: #56a79a;
+}
+
+.primary-background {
+    background-color: #56a79a;
+}
+
+/* header */
+#main-header {
+    border-bottom: 1px solid #56a79a;
+}
+
+/* NAVBAR */
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li .curent a, #navbar a:hover {
+    color: #56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom: 3px;
+}
+
+/* showcase */
+.showcase {
+    background-image: url(../images/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 3px solid #56a79a;
+    margin-bottom: 30px;
+}
+
+.showcase .row {
+    height: 600px;
+}
+
+.showcase h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.showcase p {
+    color: #ccc;
+    margin: 0;
+}
+
+.showcase .showcase-content {
+    background-color: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+.features h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.features p {
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.features .fa {
+    font-size: 60px;
+    color: #56a79a;
+}
+
+.core-features {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url(../images/features.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.core-features h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.core-features ul {
+    padding: 0;
+}
+
+.core-features li {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.company {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.company h4 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+.company input[type="text"]{
+    padding: 7px;
+}
+
+.company button {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+}
+
+#main-footer {
+    background-color: #56a79a;
+    color: white;
+}
+
+
+#page {
+    margin-bottom: 40px;
+}
+.page {
+    margin-bottom: 40px;
+}
+
+.service ul li{
+    padding: 10px;
+}
+
+.service ul li:nth-child(even) {
+    background-color: #333;
+    color: #fff;
+}
+
+.service ul li:nth-child(odd) {
+    background-color: #56a79a;
+    color: #fff;
+}
+
+/* contact */
+.contact form {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact form input[type="text"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form input[type="email"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea {
+    width: 50%;
+    height: 100px;
+}
+
+.contact form button {
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #56a79a;
+}
+
+.contact form label {
+    text-transform: uppercase;
+}
+
+
+/* RESPONSIVINESS */
+@media screen and (max-width: 800px) {
+    .showcase h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .showcase .showcase-content {
+        padding: 40px 10px;
+    }
+}
